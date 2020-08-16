@@ -2,33 +2,27 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        nuxt-starborn
-      </h1>
+      <h1 class="title">nuxt-starborn</h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https:zachdyer.github.io/nuxt-starborn"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
-        >
-          Documentation
-        </a>
+        >Production</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/zachdyer/nuxt-starborn"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
-        >
-          GitHub
-        </a>
+        >GitHub</a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style>
@@ -42,16 +36,8 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
