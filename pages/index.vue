@@ -3,26 +3,15 @@
     <div>
       <Logo />
       <h1 class="title">nuxt-starborn</h1>
-      <div class="links">
-        <a
-          href="https:zachdyer.github.io/nuxt-starborn"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >Production</a>
-        <a
-          href="https://github.com/zachdyer/nuxt-starborn"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >GitHub</a>
-      </div>
+      <Nav />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data: {},
+};
 </script>
 
 <style>
@@ -51,9 +40,5 @@ export default {};
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>
